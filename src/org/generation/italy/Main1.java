@@ -65,7 +65,8 @@ public class Main1 {
         risposta = sc.nextLine();
         
         if (risposta.equals("si")) 
-	        	do {
+	     //INIZIO GIOCO   	
+        	do {
 	        		
 	        		
 		do {
@@ -124,9 +125,9 @@ public class Main1 {
 	    if(punteggioGiocatore > punteggioBanco && punteggioGiocatore<= 7.5)
 	    	System.out.println("vince il Giocatore");
 	        
-	        
-         // FINE GIOCO
-	     sc.close();
+	 
+         // FINE GIOCO.
+	    ;
 	        
 	
 	}
